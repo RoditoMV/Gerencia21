@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Gerencia 21</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/interacciones.js"></script>
+        <link href="css/estilos.css" rel="stylesheet">
+        <link href="slider/flexslider.css" rel="stylesheet">
+        <script src="slider/js/jquery.flexslider.js"></script>
+        <link rel="stylesheet" href="js/jqueryui/jquery-ui.css">
+        <script src="js/jqueryui/jquery-ui.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="img/LogoG21.png" alt="">
+            </div>
+            <nav id="navPrincipal">
+                <ul>
+                    <a href=""><li class="navLink"><span class="glyphicon glyphicon-log-in"></span></li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink">PRÁCTICAS</li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink">BLOG</li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink">CONTACTO</li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink">CONSULTA</li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink">SERVICIOS</li></a>
+                    <li>|</li>
+                    <a href=""><li class="navLink"><span class="glyphicon glyphicon-home"></span></li></a>
+                </ul>
+            </nav>
+        </header>
+            <!--XXXXXX DETALLE 01 XXXXXXXXXXXXXXXXXXXX-->
+            <section class="contenSlider">
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                      <img src="img/slider/slider01.jpg"/>
+                    </li>
+                    <li>
+                      <img src="img/slider/slider02.jpg"/>
+                      <section class="flex-caption">
+                        <p>Nosotros Somos Especialistas<br><button class="btn btn-primary">Consúltenos Aquí</button></p>
+                      </section>
+                    </li>
+                    <li>
+                      <img src="img/slider/slider03.jpg"/>
+                      <section class="flex-caption">
+                        <p>Todo Sobre El Fraccionamiento Especial De Deudas<br><button class="btn btn-primary">Clic Aquí</button></p>
+                      </section>
+                    </li>
+                    <li>
+                      <img src="img/slider/slider04.jpg"/>
+                      <section class="flex-caption">
+                        <p>Prácticas Remuneradas<br><button class="btn btn-primary">Requisitos Aquí</button></p>
+                      </section>
+                    </li>
+                  </ul>
+                </div>               
+            </section>
+             <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <section class="portafolioBase">
+                <div id="portafolio01">
+                    <div id="portaTexto01">
+                        <h1>¡CONTABILIDAD EFICAZ! <br> <br> Su empresa en manos de personas que practican la gestión seria y creativa.</h1>
+                        <button type="button" class="btn btn-primary btn-lg">Nuestros Casos De Éxito</button>
+                    </div>
+                    <div id="portaImagen01">
+                        <img src="img/portafolio01.jpg" alt="">
+                    </div>
+                </div>
+                <div id="portafolio02">
+                    <div id="portaImagen02">
+                        <img src="img/portafolio02.jpg" alt="">
+                    </div>
+                    <div id="portaTexto02">
+                        <h1>¡PORQUE EL MEJOR SERVICIO ES AQUEL QUE SUPERA LAS EXPECTATIVAS! <br> <br> Nuestro equipo le asegura el aprovechamiento efectivo de sus oportunidades.</h1>
+                        <button type="button" class="btn btn-primary btn-lg">Consúltenos Gratuitamente</button>
+                    </div>
+                </div>
+            </section>
+            <!--XXXXXX DETALLE 01 XXXXXXXXXXXXXXXXXXXX-->
+            <section id="detalle01">
+                <div id="detalleTexto01">
+                    <h2>Nuestro Servicio Incluye un Poderoso Sistema de Contabilidad Virtual 
+                        y un Sistema de Reportes muy Completo.</h2>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalGerensys">
+                        Más Información...</button>
+                </div>
+                <div id="detalleImagen01">
+                    <img src="img/imgDetalle01.png" alt="">
+                </div>
+                <!--MODAL DEL BOTON Más Información-->
+                <div class="modal fade bs-example-modal-lg" id="modalGerensys" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">GERENSYS - Estudio Contable</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Todo lo que necesita para la gestión de </h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btnDetalles">Mayores Detalles <span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </section>
+             <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+             <!--XXXXXX DETALLE 02 XXXXXXXXXXXXXXXXXXXX-->
+            <section id="detalle02">
+                <div id="detalleTexto02">
+                    <h2>Contamos con un equipo de trabajo completo y acorde a lo que requiere la empresa del siglo 21.</h2>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalEquipo">
+                        Más Información...</button>
+                </div>
+                <div id="detalleImagen02">
+                    <img src="img/imgDetalle02.png" alt="">
+                </div>
+                <!--MODAL DEL BOTON Más Información-->
+                <div class="modal fade bs-example-modal-lg" id="modalEquipo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Equipo de Trabajo</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Nuestro equipo de trabajo... </h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btnDetalles">Mayores Detalles <span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </section>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+            <!--XXXXXX DETALLE 03 XXXXXXXXXXXXXXXXXXXX-->
+            <section id="detalle03">
+                <div id="detalleTexto03">
+                    <h2>Somos especialistas en gestión tributaria. Nosotros si estamos preparados par atender a los requerimientos de la SUNAT.</h2>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalSunat">
+                        Más Información...</button>
+                </div>
+                <div id="detalleImagen03">
+                    <img src="img/imgDetalle03.png" alt="">
+                </div>
+                <!--MODAL DEL BOTON Más Información-->
+                <div class="modal fade bs-example-modal-lg" id="modalSunat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Especialistas en Gestión Tributaria</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Nuestros profesionales poseen amplia experiencia en tributación... </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btnDetalles">Mayores Detalles <span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </section>
+            <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ¿CÓMO SE HACE PARA?-->
+            <section id="testimoniales">
+                <h2>LO QUE OPINAN NUESTROS CLIENTES</h2>
+                <div id="containerTab">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active"><a href="#test01" data-toggle="tab">¡Un Buen Servicio!</a></li>
+                        <li><a href="#test02" data-toggle="tab">¡Lo Hacen Todo!</a></li>
+                        <li><a href="#test03" data-toggle="tab">¡Muy Completo!</a></li>
+                        <li><a href="#test04" data-toggle="tab">¡Eficiente!</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="test01" class="tab-pane fade in active">
+                            <div class="parTestimonio">
+                                <h2>FELIX S. VALENCIA GONZÁLES</h2>
+                                <h4>ASOCIACIÓN RURAL PAITITI</h4>
+                                <h4>RUC N° 20358462473</h4>
+                                <h4>PRESIDENTE DE CONSEJO DIRECTIVO </h4>
+                                <p>
+                                    Nuestra entidad le presta servicios de mantenimiento vial rutinario de carreteras
+                                    a la Dirección Regional de Transportes y Comunicaciones Cusco, en la zona Paucartambo. 
+                                </p> 
+                                <p> 
+                                    Ya llevamos trabajando con el Estudio Contable Gerencia 21 desde el año 2013 y siempre están 
+                                    dispuestos a solucionar los inconvenientes que se nos presentan diariamente, su servicio es 
+                                    excelente y nos atienden con cordialidad.
+                                </p>
+                            </div>
+                            <div class="imgTestimonio">
+
+                            </div>
+                        </div>
+                        <div id="test02" class="tab-pane fade">
+                            <div class="parTestimonio">
+                                <h2>MARCELINA ELENA VENTURA SANCHEZ</h2>
+                                <h4>PROYECTOS E INVERSIONES VENTURA E.I.R.L.</h4>
+                                <h4>RUC N° 20600863704 </h4>
+                                <h4>REPRESENTANTE LEGAL </h4>
+                                <p>
+                                    Nuestra entidad le presta servicios de mantenimiento vial rutinario de carreteras
+                                    a la Dirección Regional de Transportes y Comunicaciones Cusco, en la zona Paucartambo. 
+                                </p> 
+                                <p> 
+                                    Ya llevamos trabajando con el Estudio Contable Gerencia 21 desde el año 2013 y siempre están 
+                                    dispuestos a solucionar los inconvenientes que se nos presentan diariamente, su servicio es 
+                                    excelente y nos atienden con cordialidad.
+                                </p>
+                            </div>
+                            <div class="imgTestimonio">
+
+                            </div>
+                        </div>
+                        <div id="test03" class="tab-pane fade">
+                            <div class="parTestimonio">
+                                <h2>JOSE ANTONIO ALVARADO ALVA</h2>
+                                <h4>QUINTA LUCRE</h4>
+                                <h4>RUC N° 10092983612 </h4>
+                                <h4>GERENTE </h4>
+                                <p>
+                                    Nuestra entidad le presta servicios de mantenimiento vial rutinario de carreteras
+                                    a la Dirección Regional de Transportes y Comunicaciones Cusco, en la zona Paucartambo. 
+                                </p> 
+                                <p> 
+                                    Ya llevamos trabajando con el Estudio Contable Gerencia 21 desde el año 2013 y siempre están 
+                                    dispuestos a solucionar los inconvenientes que se nos presentan diariamente, su servicio es 
+                                    excelente y nos atienden con cordialidad.
+                                </p>
+                            </div>
+                            <div class="imgTestimonio">
+
+                            </div>
+                        </div>
+                        <div id="test04" class="tab-pane fade">
+                            <div class="parTestimonio">
+                                <h2>SANDRA CASTRO OVALLE </h2>
+                                <h4>VIRTUAL BUSINESS CUSCO S.A.C.</h4>
+                                <h4>RUC N° 20600166850 </h4>
+                                <h4>GERENTE </h4>
+                                <p>
+                                    Nuestra entidad le presta servicios de mantenimiento vial rutinario de carreteras
+                                    a la Dirección Regional de Transportes y Comunicaciones Cusco, en la zona Paucartambo. 
+                                </p> 
+                                <p> 
+                                    Ya llevamos trabajando con el Estudio Contable Gerencia 21 desde el año 2013 y siempre están 
+                                    dispuestos a solucionar los inconvenientes que se nos presentan diariamente, su servicio es 
+                                    excelente y nos atienden con cordialidad.
+                                </p>
+                            </div>
+                            <div class="imgTestimonio">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+        <footer>
+            <div id="navPie">
+
+            </div>
+            <div id="contPie">
+                <h5>Copyright 2017 - Todos los derechos reservados - 
+                    Plataforma Web Implementada por GRAFIKAS
+                </h5>
+                <div id="redesIconos">
+                    
+                </div>
+            </div>
+        </footer>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
