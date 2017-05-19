@@ -1,0 +1,193 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12px; margin: 0; padding: 0;}
+/*ESTILOS DEL INICIO GENERAL---*/
+#navGeneral{
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+    height: 40px;    
+}
+#navGeneral ul a{
+    float: left;
+    width: 16%;
+    color: #fff;
+    margin-right: 5px;
+    height: 35px;
+    margin-top: 3px;
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 5px;
+    background: #C66668;
+    border: solid 1px #fff;
+}
+#navGeneral ul a:hover{
+    background: #662628;
+
+}
+#navGeneral ul li{
+    list-style: none;
+}
+#navGeneral ul li a, #navGeneral ul li span{
+    font-size: 12px;
+    text-decoration: none;
+}
+#titGeneral{
+    width: 98%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33px;
+    background: #E9E9E9;
+    border-radius: 5px;
+}
+#titGeneral h3{
+    width: 98%;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 30px;
+    font-size: 20px;
+    color: #662628;
+}
+#tabInicioGeneral, #tabGestionContable, #tabGestionTributaria, #tabGestionAdministrativa, #tabGestionAtencion{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.bannerBotones{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: right;
+}
+/*-------------------------*/
+
+/*ESTILOS DE LOS FORMULARIOS---*/
+.formularioGeneral{
+    width: 100%;
+    background: #E9E9E9;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.encabezadoFormulario{
+    width: 98%;
+    height: 40px;
+    margin-top: 10px;
+}
+.titForm01{
+    float: left;
+}
+.titForm02{
+    float: right;
+}
+.titForm02 a button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #595959;
+    border: none;
+}
+.titForm02 a button span{
+        font-size: 20px;
+}
+.cuerpoFormulario{
+    width: 98%;
+    height: auto;
+    
+    margin-top: 20px; 
+}
+#sizing-addon2{
+    background: #C66668;
+    color: #fff;
+}
+.tituImput{
+    width: 50%;
+}
+/*-------------------------*/
+/*ESTILOS DEL INDEX-------*/
+#pantallainicio{
+    width: 400px;
+    height: 400px;
+    background: #99393C;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#tituloPanInicio{
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+#tituloPanInicio img{
+   width: 30%;
+}
+#loginFormulario{
+    width: 350px;
+    margin: auto;
+    color: #fff;
+    margin-top: 30px;
+}
+/*-------------------------*/
+/*ESTILOS DE LA VENTANA DETALLE-------*/
+.vistaDetalle{
+    background: #DFDFDF;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.etiqueta{
+    background: #A7A7A7;
+    color: #fff;
+    text-align: right;
+}
+.vistaDetalle table {
+    text-align: center;
+}
+.encabezado td {
+    text-align: right;
+}
+.encabezado td span{
+    font-size: 25px;
+}
+.encabezado td a{
+    text-decoration: none;
+    color: #782D2E;
+}
+.encabezado td a:hover{
+    color: #C66668;
+}
+.tablaDetalle tbody tr td, .tablaDetalle tbody tr td strong{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*-------------------------*/
+/*ESTILOS DEL PRELOADER-------*/
+#cargador{
+    position:fixed;
+    top:0; 
+    left:0;
+    right:0;
+    bottom:0;
+    background:#99393C;
+    z-index:9999;
+    height:100%;
+    width:100%;
+}
+#estado{
+    width:920px;
+    height:532px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-266px 0 0 -460px;
+    background:url(../imagenes/gerencia21.png) center no-repeat;
+}
+/*-------------------------*/
+/*ESTILOS DE LAS TABLAS-------*/
+table tr td{
+    text-align: center;
+}
+/*-------------------------*/
